@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">柴ヴァイオリン教室</title>
+  <desc id="desc">SNS共有用の仮画像です。</desc>
+  <rect width="1200" height="630" fill="#fffdf8"/>
+  <rect x="80" y="70" width="1040" height="490" rx="8" fill="#f7efe1" stroke="#e8d8bf" stroke-width="4"/>
+  <path d="M812 146v252c0 69-54 114-118 114-53 0-96-32-96-77 0-48 47-81 101-81 25 0 49 6 70 18V198l43-52Z" fill="#5d4632"/>
+  <text x="140" y="260" fill="#5d4632" font-family="sans-serif" font-size="72" font-weight="700">柴ヴァイオリン教室</text>
+  <text x="143" y="345" fill="#6f6258" font-family="sans-serif" font-size="32">お子さまから大人・シニアの方まで</text>
+  <text x="143" y="395" fill="#6f6258" font-family="sans-serif" font-size="32">基礎から丁寧に学べるヴァイオリン教室</text>
+  <text x="143" y="475" fill="#6f7d5d" font-family="sans-serif" font-size="30" font-weight="700">西永福・秋津・調布応相談</text>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="440" viewBox="0 0 640 440" role="img" aria-labelledby="title desc">
+  <title id="title">発表会</title>
+  <desc id="desc">発表会写真用の仮画像です。</desc>
+  <rect width="640" height="440" fill="#f6f7f2"/>
+  <rect x="72" y="86" width="496" height="248" rx="8" fill="#ffffff" stroke="#dbe0cf" stroke-width="3"/>
+  <path d="M120 286h400" stroke="#5d4632" stroke-width="12" stroke-linecap="round"/>
+  <circle cx="220" cy="194" r="36" fill="#e8d8bf"/>
+  <circle cx="320" cy="176" r="36" fill="#b7796c"/>
+  <circle cx="420" cy="194" r="36" fill="#e8d8bf"/>
+  <path d="M202 252c25-39 52-39 76 0M302 234c25-39 52-39 76 0M402 252c25-39 52-39 76 0" fill="none" stroke="#6f7d5d" stroke-width="8" stroke-linecap="round"/>
+  <text x="320" y="390" fill="#6f6258" font-family="sans-serif" font-size="24" text-anchor="middle">発表会</text>
+</svg>

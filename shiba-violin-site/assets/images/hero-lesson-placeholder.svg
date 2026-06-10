@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="680" viewBox="0 0 920 680" role="img" aria-labelledby="title desc">
+  <title id="title">レッスン室の仮画像</title>
+  <desc id="desc">西永福教室のレッスン室写真を後から差し替えるための仮画像です。</desc>
+  <rect width="920" height="680" fill="#f7efe1"/>
+  <rect x="70" y="70" width="780" height="540" rx="8" fill="#fffdf8" stroke="#e8d8bf" stroke-width="3"/>
+  <path d="M142 482c72-88 155-136 247-145 92-9 174 19 247 84 42 37 87 57 134 60" fill="none" stroke="#6f7d5d" stroke-width="10" stroke-linecap="round"/>
+  <path d="M568 168v254c0 48-39 78-84 78-36 0-67-22-67-54 0-34 33-56 70-56 20 0 39 5 55 15V218l26-50Z" fill="#5d4632"/>
+  <path d="M279 207c40 58 87 123 142 194" fill="none" stroke="#b7796c" stroke-width="12" stroke-linecap="round"/>
+  <path d="M255 225 436 398" fill="none" stroke="#8a6f55" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="256" cy="224" r="28" fill="#b7796c"/>
+  <circle cx="711" cy="188" r="34" fill="#e8d8bf"/>
+  <text x="460" y="585" fill="#6f6258" font-family="sans-serif" font-size="30" text-anchor="middle">レッスン室写真をここに配置</text>
+</svg>

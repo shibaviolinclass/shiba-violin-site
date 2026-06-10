@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="440" viewBox="0 0 640 440" role="img" aria-labelledby="title desc">
+  <title id="title">ヴァイオリン</title>
+  <desc id="desc">ヴァイオリン写真用の仮画像です。</desc>
+  <rect width="640" height="440" fill="#f7efe1"/>
+  <path d="M284 128c-31-24-78-3-85 40-3 18 2 33 15 47-30 11-45 36-39 67 8 42 61 57 95 28 17-15 25-35 24-61h52c-1 26 7 46 24 61 34 29 87 14 95-28 6-31-9-56-39-67 13-14 18-29 15-47-7-43-54-64-85-40-16 12-24 31-24 58h-20c0-27-8-46-24-58Z" fill="#b7796c"/>
+  <path d="M320 64v312" stroke="#5d4632" stroke-width="8" stroke-linecap="round"/>
+  <path d="M300 72h40M292 108h56M268 196h104" stroke="#5d4632" stroke-width="6" stroke-linecap="round"/>
+  <text x="320" y="410" fill="#6f6258" font-family="sans-serif" font-size="24" text-anchor="middle">ヴァイオリン</text>
+</svg>
