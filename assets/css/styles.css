@@ -629,3 +629,119 @@ figcaption {
     margin-top: 12px;
   }
 }
+
+.teacher-section {
+  position: relative;
+  border-top: 1px solid var(--line);
+}
+
+.teacher-heading p:not(.eyebrow) {
+  color: var(--muted);
+}
+
+.teacher-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.teacher-card {
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--paper);
+  box-shadow: 0 12px 28px rgba(70, 52, 35, 0.08);
+}
+
+.teacher-photo {
+  position: relative;
+  height: 210px;
+  margin: 30px 36px 0;
+  border: 3px solid var(--sand);
+  border-radius: var(--radius);
+  background: #fffefb;
+}
+
+.teacher-photo::before,
+.teacher-photo::after {
+  position: absolute;
+  content: "";
+}
+
+.teacher-photo::before {
+  width: 88px;
+  height: 88px;
+  top: 30px;
+  left: 50%;
+  border-radius: 50%;
+  background: #ead9b8;
+  transform: translateX(-50%);
+}
+
+.teacher-photo::after {
+  right: 64px;
+  bottom: 26px;
+  width: 78px;
+  height: 138px;
+  background: var(--brown);
+  clip-path: polygon(58% 0, 78% 0, 78% 100%, 0 100%, 0 74%, 58% 74%);
+}
+
+.teacher-photo-kanae {
+  background: linear-gradient(145deg, transparent 54%, var(--green) 55% 82%, transparent 83%), #fffefb;
+}
+
+.teacher-photo-nobuko {
+  border-color: #dbe1cf;
+  background: linear-gradient(115deg, transparent 46%, #bf7e70 47% 82%, transparent 83%), #fffefb;
+}
+
+.teacher-photo-nobuko::after {
+  right: 54px;
+  bottom: 44px;
+  width: 150px;
+  height: 8px;
+  border-radius: 999px;
+  background: var(--brown);
+  clip-path: none;
+  transform: rotate(-36deg);
+}
+
+.teacher-photo-yoshiko {
+  background: linear-gradient(145deg, transparent 54%, var(--brown-soft) 55% 82%, transparent 83%), #fffefb;
+}
+
+.teacher-photo-caption {
+  margin: 8px 0 22px;
+  color: var(--muted);
+  font-size: 14px;
+  text-align: center;
+}
+
+.teacher-card-body {
+  min-height: 224px;
+  padding: 24px;
+  border-top: 1px solid var(--line);
+}
+
+.teacher-card-body p,
+.teacher-note {
+  color: var(--muted);
+}
+
+.teacher-card-body ul {
+  margin: 12px 0 0;
+  padding-left: 20px;
+  color: var(--muted);
+}
+
+.teacher-note {
+  margin: 18px 0 0;
+  font-size: 14px;
+}
+
+@media (max-width: 920px) {
+  .teacher-grid {
+    grid-template-columns: 1fr;
+  }
+}
