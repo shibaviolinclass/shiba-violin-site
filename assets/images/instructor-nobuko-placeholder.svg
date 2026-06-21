@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="720" viewBox="0 0 640 720" role="img" aria-labelledby="title desc">
+  <title id="title">柴 伸子 講師写真の仮画像</title>
+  <desc id="desc">講師写真を差し替えるための上品な人物シルエット仮画像</desc>
+  <rect width="640" height="720" fill="#f6f7f2"/>
+  <circle cx="320" cy="226" r="108" fill="#d7c4ad"/>
+  <path d="M142 612c26-116 97-196 178-196s152 80 178 196" fill="#6f7d5d"/>
+  <path d="M232 170c-36 44-34 118 10 164-78-37-99-132-45-202 58-74 171-70 222 6 48 71 25 158-44 195 31-50 32-116-5-160-35-41-100-46-138-3z" fill="#5d4632" opacity=".78"/>
+  <circle cx="252" cy="244" r="10" fill="#b7796c" opacity=".45"/>
+  <circle cx="388" cy="244" r="10" fill="#b7796c" opacity=".45"/>
+  <path d="M124 612h392" stroke="#dfe5d6" stroke-width="8" stroke-linecap="round"/>
+  <text x="320" y="668" text-anchor="middle" fill="#5d4632" font-family="serif" font-size="30" font-weight="700">Nobuko Shiba</text>
+</svg>
