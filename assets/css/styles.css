@@ -297,6 +297,65 @@ figcaption {
   margin-bottom: 34px;
 }
 
+.teacher-section {
+  border-top: 1px solid var(--line);
+}
+
+.teacher-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.teacher-card {
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--paper);
+  box-shadow: 0 12px 28px rgba(70, 52, 35, 0.06);
+}
+
+.teacher-card figure {
+  margin: 0;
+  padding: 28px 28px 18px;
+  background: #fffaf1;
+  text-align: center;
+}
+
+.teacher-card img {
+  width: 100%;
+  aspect-ratio: 1.27 / 1;
+  object-fit: cover;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--paper);
+}
+
+.teacher-card figcaption {
+  color: var(--muted);
+  font-size: 15px;
+}
+
+.teacher-profile {
+  padding: 24px;
+}
+
+.teacher-profile p,
+.teacher-profile li,
+.teacher-note {
+  color: var(--muted);
+}
+
+.teacher-profile ul {
+  margin: 14px 0 0;
+  padding-left: 20px;
+}
+
+.teacher-note {
+  margin: 18px 0 0;
+  font-size: 14px;
+}
+
 .feature-grid,
 .location-grid,
 .gallery-grid {
@@ -568,6 +627,7 @@ figcaption {
   }
 
   .feature-grid,
+  .teacher-grid,
   .location-grid,
   .gallery-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -601,6 +661,7 @@ figcaption {
   }
 
   .feature-grid,
+  .teacher-grid,
   .location-grid,
   .gallery-grid,
   .contact-list {
