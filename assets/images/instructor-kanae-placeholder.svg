@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="720" viewBox="0 0 640 720" role="img" aria-labelledby="title desc">
+  <title id="title">柴 香苗 講師写真の仮画像</title>
+  <desc id="desc">講師写真を差し替えるための落ち着いた色合いの人物シルエット仮画像</desc>
+  <rect width="640" height="720" fill="#f7efe1"/>
+  <circle cx="320" cy="230" r="112" fill="#d8c2a4"/>
+  <path d="M150 610c22-128 99-202 170-202s148 74 170 202" fill="#8a6f55"/>
+  <path d="M214 610h212c-7-82-45-134-106-134s-99 52-106 134z" fill="#fffdf8" opacity=".45"/>
+  <path d="M438 155c52 92-10 185-66 207 24-49 27-112-13-172-33-49-84-70-139-58 42-57 154-91 218 23z" fill="#5d4632" opacity=".82"/>
+  <path d="M124 610h392" stroke="#eadfce" stroke-width="8" stroke-linecap="round"/>
+  <text x="320" y="668" text-anchor="middle" fill="#5d4632" font-family="serif" font-size="30" font-weight="700">Kanae Shiba</text>
+</svg>
