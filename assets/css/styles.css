@@ -497,6 +497,57 @@ figcaption {
   clip-path: polygon(28% 18%, 28% 82%, 82% 50%);
 }
 
+.faq-section {
+  background: #fffdf8;
+}
+
+.faq-list {
+  display: grid;
+  gap: 14px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.faq-item {
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--paper);
+  box-shadow: 0 10px 24px rgba(72, 58, 43, 0.06);
+}
+
+.faq-item summary {
+  position: relative;
+  padding: 18px 54px 18px 22px;
+  color: var(--brown);
+  font-weight: 700;
+  cursor: pointer;
+  list-style: none;
+}
+
+.faq-item summary::-webkit-details-marker {
+  display: none;
+}
+
+.faq-item summary::after {
+  content: "＋";
+  position: absolute;
+  top: 50%;
+  right: 22px;
+  transform: translateY(-50%);
+  color: var(--green);
+  font-size: 20px;
+}
+
+.faq-item[open] summary::after {
+  content: "−";
+}
+
+.faq-item p {
+  margin: 0;
+  padding: 0 22px 20px;
+  color: var(--muted);
+}
+
 .contact-section {
   padding-top: 40px;
 }
