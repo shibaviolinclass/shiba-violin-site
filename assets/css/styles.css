@@ -91,6 +91,13 @@ a {
   font-size: 18px;
 }
 
+.brand-logo {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  border-radius: 50%;
+}
+
 .site-nav {
   display: flex;
   align-items: center;
@@ -168,6 +175,12 @@ h3 {
 h1 {
   font-size: clamp(40px, 7vw, 72px);
   font-weight: 800;
+}
+
+.hero-title-detail {
+  display: block;
+  margin-top: 8px;
+  font-size: clamp(28px, 4vw, 42px);
 }
 
 h2 {
@@ -345,7 +358,8 @@ figcaption {
   width: 100%;
   aspect-ratio: 1 / 1.08;
   margin-bottom: 22px;
-  object-fit: cover;
+  object-fit: contain;
+  object-position: center top;
   border: 1px solid var(--line);
   border-radius: var(--radius);
   background: var(--cream);
@@ -495,6 +509,57 @@ figcaption {
   border-radius: 50%;
   background: var(--brown);
   clip-path: polygon(28% 18%, 28% 82%, 82% 50%);
+}
+
+.faq-section {
+  background: #fffdf8;
+}
+
+.faq-list {
+  display: grid;
+  gap: 14px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.faq-item {
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--paper);
+  box-shadow: 0 10px 24px rgba(72, 58, 43, 0.06);
+}
+
+.faq-item summary {
+  position: relative;
+  padding: 18px 54px 18px 22px;
+  color: var(--brown);
+  font-weight: 700;
+  cursor: pointer;
+  list-style: none;
+}
+
+.faq-item summary::-webkit-details-marker {
+  display: none;
+}
+
+.faq-item summary::after {
+  content: "＋";
+  position: absolute;
+  top: 50%;
+  right: 22px;
+  transform: translateY(-50%);
+  color: var(--green);
+  font-size: 20px;
+}
+
+.faq-item[open] summary::after {
+  content: "−";
+}
+
+.faq-item p {
+  margin: 0;
+  padding: 0 22px 20px;
+  color: var(--muted);
 }
 
 .contact-section {
