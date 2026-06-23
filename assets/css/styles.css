@@ -63,8 +63,8 @@ a {
   align-items: center;
   justify-content: space-between;
   gap: 24px;
-  min-height: 72px;
-  padding: 12px max(20px, calc((100vw - var(--content)) / 2));
+  min-height: 88px;
+  padding: 16px max(20px, calc((100vw - var(--content)) / 2));
   background: rgba(255, 253, 248, 0.94);
   border-bottom: 1px solid var(--line);
   backdrop-filter: blur(12px);
@@ -73,7 +73,7 @@ a {
 .brand {
   display: inline-flex;
   align-items: center;
-  gap: 10px;
+  gap: 14px;
   min-width: max-content;
   color: var(--brown);
   font-weight: 700;
@@ -92,8 +92,8 @@ a {
 }
 
 .brand-logo {
-  width: 40px;
-  height: 40px;
+  width: 56px;
+  height: 56px;
   object-fit: contain;
   border-radius: 50%;
 }
@@ -338,6 +338,19 @@ figcaption {
 .feature-grid p,
 .instructor-card p,
 .location-card p {
+  margin-bottom: 0;
+}
+
+.feature-text {
+  max-width: 920px;
+  padding: 34px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--paper);
+  box-shadow: var(--shadow);
+}
+
+.feature-text p:last-child {
   margin-bottom: 0;
 }
 
@@ -631,7 +644,7 @@ figcaption {
 
   .site-nav {
     position: absolute;
-    top: 72px;
+    top: 88px;
     right: 16px;
     left: 16px;
     display: none;
@@ -678,7 +691,18 @@ figcaption {
   }
 
   .site-header {
-    min-height: 66px;
+    min-height: 76px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+
+  .brand-logo {
+    width: 48px;
+    height: 48px;
+  }
+
+  .site-nav {
+    top: 76px;
   }
 
   .brand {
