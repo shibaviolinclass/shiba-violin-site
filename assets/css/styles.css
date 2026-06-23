@@ -170,6 +170,12 @@ h1 {
   font-weight: 800;
 }
 
+.hero-title-detail {
+  display: block;
+  margin-top: 8px;
+  font-size: clamp(28px, 4vw, 42px);
+}
+
 h2 {
   font-size: clamp(28px, 4vw, 42px);
 }
