@@ -511,7 +511,8 @@ figcaption {
 }
 
 .gallery-main {
-  margin: 0;
+  width: min(100%, 280px);
+  margin: 0 auto;
 }
 
 .gallery-main img {
@@ -534,7 +535,7 @@ figcaption {
 .gallery-thumbnails {
   display: grid;
   grid-template-columns: repeat(7, minmax(0, 1fr));
-  gap: 12px;
+  gap: 16px;
 }
 
 .gallery-thumbnail {
