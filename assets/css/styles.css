@@ -220,7 +220,10 @@ h3 {
   border-radius: var(--radius);
   font-weight: 700;
   text-decoration: none;
-  transition: transform 160ms ease, box-shadow 160ms ease, background-color 160ms ease;
+  transition:
+    transform 160ms ease,
+    box-shadow 160ms ease,
+    background-color 160ms ease;
 }
 
 .button:hover,
@@ -376,6 +379,12 @@ figcaption {
   border: 1px solid var(--line);
   border-radius: var(--radius);
   background: var(--cream);
+}
+
+.instructor-photo-small {
+  width: 88%;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .instructor-card ul {
@@ -575,6 +584,66 @@ figcaption {
   color: var(--muted);
 }
 
+.trial-section {
+  border-top: 1px solid var(--line);
+}
+
+.trial-steps {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.trial-steps li {
+  position: relative;
+  padding: 30px 26px 28px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--paper);
+  box-shadow: 0 12px 28px rgba(70, 52, 35, 0.08);
+}
+
+.step-number {
+  display: inline-grid;
+  width: 42px;
+  height: 42px;
+  place-items: center;
+  margin-bottom: 18px;
+  border-radius: 50%;
+  background: var(--green);
+  color: var(--paper);
+  font-weight: 800;
+}
+
+.trial-steps p,
+.cta-card p {
+  color: var(--muted);
+}
+
+.cta-section {
+  padding-top: 38px;
+  padding-bottom: 38px;
+}
+
+.cta-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 28px;
+  padding: clamp(28px, 5vw, 46px);
+  border-radius: var(--radius);
+  background: linear-gradient(135deg, #f4eadb, #fffdf8 70%);
+  border: 1px solid var(--line);
+  box-shadow: var(--shadow);
+}
+
+.cta-card > div {
+  max-width: 700px;
+}
+
 .contact-section {
   padding-top: 40px;
 }
@@ -680,8 +749,14 @@ figcaption {
   .feature-grid,
   .instructor-grid,
   .location-grid,
-  .gallery-grid {
+  .gallery-grid,
+  .trial-steps {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .cta-card {
+    align-items: flex-start;
+    flex-direction: column;
   }
 }
 
@@ -726,6 +801,7 @@ figcaption {
   .instructor-grid,
   .location-grid,
   .gallery-grid,
+  .trial-steps,
   .contact-list {
     grid-template-columns: 1fr;
   }
