@@ -220,7 +220,10 @@ h3 {
   border-radius: var(--radius);
   font-weight: 700;
   text-decoration: none;
-  transition: transform 160ms ease, box-shadow 160ms ease, background-color 160ms ease;
+  transition:
+    transform 160ms ease,
+    box-shadow 160ms ease,
+    background-color 160ms ease;
 }
 
 .button:hover,
@@ -378,6 +381,12 @@ figcaption {
   background: var(--cream);
 }
 
+.instructor-photo-small {
+  width: 88%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .instructor-card ul {
   margin: 16px 0 0;
   padding-left: 1.2em;
@@ -496,6 +505,72 @@ figcaption {
   font-weight: 700;
 }
 
+.gallery-viewer {
+  display: grid;
+  gap: 18px;
+}
+
+.gallery-main {
+  width: min(100%, 280px);
+  margin: 0 auto;
+}
+
+.gallery-main img {
+  width: 100%;
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--cream);
+  box-shadow: var(--shadow);
+}
+
+.gallery-main figcaption {
+  color: var(--brown);
+  font-size: 17px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.gallery-thumbnails {
+  display: grid;
+  grid-template-columns: repeat(7, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.gallery-thumbnail {
+  display: grid;
+  gap: 8px;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: var(--brown);
+  font: inherit;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1.45;
+  text-align: center;
+  cursor: pointer;
+}
+
+.gallery-thumbnail img {
+  width: 100%;
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--cream);
+  transition:
+    transform 160ms ease,
+    box-shadow 160ms ease;
+}
+
+.gallery-thumbnail:hover img,
+.gallery-thumbnail:focus-visible img {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 22px rgba(70, 52, 35, 0.14);
+}
+
 .video-section {
   display: grid;
   grid-template-columns: 0.85fr 1.15fr;
@@ -573,6 +648,66 @@ figcaption {
   margin: 0;
   padding: 0 22px 20px;
   color: var(--muted);
+}
+
+.trial-section {
+  border-top: 1px solid var(--line);
+}
+
+.trial-steps {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.trial-steps li {
+  position: relative;
+  padding: 30px 26px 28px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--paper);
+  box-shadow: 0 12px 28px rgba(70, 52, 35, 0.08);
+}
+
+.step-number {
+  display: inline-grid;
+  width: 42px;
+  height: 42px;
+  place-items: center;
+  margin-bottom: 18px;
+  border-radius: 50%;
+  background: var(--green);
+  color: var(--paper);
+  font-weight: 800;
+}
+
+.trial-steps p,
+.cta-card p {
+  color: var(--muted);
+}
+
+.cta-section {
+  padding-top: 38px;
+  padding-bottom: 38px;
+}
+
+.cta-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 28px;
+  padding: clamp(28px, 5vw, 46px);
+  border-radius: var(--radius);
+  background: linear-gradient(135deg, #f4eadb, #fffdf8 70%);
+  border: 1px solid var(--line);
+  box-shadow: var(--shadow);
+}
+
+.cta-card > div {
+  max-width: 700px;
 }
 
 .contact-section {
@@ -680,8 +815,18 @@ figcaption {
   .feature-grid,
   .instructor-grid,
   .location-grid,
-  .gallery-grid {
+  .gallery-grid,
+  .trial-steps {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .gallery-thumbnails {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .cta-card {
+    align-items: flex-start;
+    flex-direction: column;
   }
 }
 
@@ -726,8 +871,13 @@ figcaption {
   .instructor-grid,
   .location-grid,
   .gallery-grid,
+  .trial-steps,
   .contact-list {
     grid-template-columns: 1fr;
+  }
+
+  .gallery-thumbnails {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .price-box div {
