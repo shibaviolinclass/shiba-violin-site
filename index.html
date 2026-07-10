@@ -111,16 +111,6 @@
           <p class="eyebrow">About</p>
           <h2>教室について</h2>
           <p>
-            バイオリンの学習は、演奏技術の向上だけでなく、お子さまの成長にも多くの良い影響をもたらします。近年では、右脳と左脳をバランスよく活性化し、集中力や忍耐力、協調性を育むことに加え、HQ（Human
-            Quality：人間性知能）の向上にも役立つことが注目されています。HQはIQ（知能指数）やEQ（心の知能指数）とも深く関わり、人間力を育てる大切な要素とされています。
-          </p>
-          <p>
-            当教室では、演奏技術の習得だけでなく、ひとりひとりの豊かな人間性を育むことを大切にしながら指導を行っています。これまでに音楽大学への進学をはじめ、多くの生徒が有名中学校・高等学校・大学へ進学しています。
-          </p>
-          <p>
-            また、大人の方には生涯学習の一環として、音楽を通じた充実した時間と、演奏する喜びを感じていただけるレッスンを提供しております。初心者の方から経験者の方まで、それぞれの目標に合わせて楽しく学んでいただけます。
-          </p>
-          <p>
             柴ヴァイオリン教室では、趣味の方から初心者、経験者まで、それぞれの目的に合わせた個人レッスンを大切にしています。
           </p>
           <p>
@@ -328,46 +318,85 @@
           <p class="eyebrow">Gallery</p>
           <h2>教室の様子</h2>
           <p>
-            レッスン室、発表会、楽器の雰囲気が伝わる写真を掲載しています。差し替え用の写真が増えた際も、同じ枠組みで更新できます。
+            大きな写真の下に小さな写真を並べています。小さな写真をクリックすると、大きな写真と入れ替わり、写真の説明も更新されます。
           </p>
         </div>
-        <div class="gallery-grid">
-          <figure>
+        <div class="gallery-viewer" data-gallery>
+          <figure class="gallery-main">
             <img
-              src="assets/images/lesson-room-placeholder.svg"
-              alt="レッスン室の写真を入れるための仮画像"
-              width="640"
-              height="440"
+              src="assets/images/Lesson1.jpg"
+              alt="レッスン風景"
+              width="1200"
+              height="800"
+              data-gallery-main-image
             />
-            <figcaption>レッスン室</figcaption>
+            <figcaption data-gallery-main-caption>レッスン風景</figcaption>
           </figure>
-          <figure>
-            <img
-              src="assets/images/recital-placeholder.svg"
-              alt="発表会の写真を入れるための仮画像"
-              width="640"
-              height="440"
-            />
-            <figcaption>発表会</figcaption>
-          </figure>
-          <figure>
-            <img
-              src="assets/images/grand-piano-placeholder.svg"
-              alt="グランドピアノの写真を入れるための仮画像"
-              width="640"
-              height="440"
-            />
-            <figcaption>グランドピアノ</figcaption>
-          </figure>
-          <figure>
-            <img
-              src="assets/images/violin-placeholder.svg"
-              alt="ヴァイオリンの写真を入れるための仮画像"
-              width="640"
-              height="440"
-            />
-            <figcaption>ヴァイオリン</figcaption>
-          </figure>
+          <div class="gallery-thumbnails" aria-label="教室紹介写真の一覧">
+            <button class="gallery-thumbnail" type="button" data-gallery-thumb>
+              <img
+                src="assets/images/lesson2.jpg"
+                alt="レッスン風景"
+                width="240"
+                height="160"
+              />
+              <span>レッスン風景</span>
+            </button>
+            <button class="gallery-thumbnail" type="button" data-gallery-thumb>
+              <img
+                src="assets/images/happyoukai2.jpg"
+                alt="発表会"
+                width="240"
+                height="160"
+              />
+              <span>発表会</span>
+            </button>
+            <button class="gallery-thumbnail" type="button" data-gallery-thumb>
+              <img
+                src="assets/images/happyoukai1.jpg"
+                alt="発表会"
+                width="240"
+                height="160"
+              />
+              <span>発表会</span>
+            </button>
+            <button class="gallery-thumbnail" type="button" data-gallery-thumb>
+              <img
+                src="assets/images/gassou jugyou1.jpg"
+                alt="合奏授業"
+                width="240"
+                height="160"
+              />
+              <span>合奏授業</span>
+            </button>
+            <button class="gallery-thumbnail" type="button" data-gallery-thumb>
+              <img
+                src="assets/images/クリスマスコンサート.jpg"
+                alt="クリスマスコンサート"
+                width="240"
+                height="160"
+              />
+              <span>クリスマスコンサート</span>
+            </button>
+            <button class="gallery-thumbnail" type="button" data-gallery-thumb>
+              <img
+                src="assets/images/演奏旅行.jpg"
+                alt="演奏旅行"
+                width="240"
+                height="160"
+              />
+              <span>演奏旅行</span>
+            </button>
+            <button class="gallery-thumbnail" type="button" data-gallery-thumb>
+              <img
+                src="assets/images/弦楽指導者協会全国大会に参加.jpg"
+                alt="弦楽指導者協会全国大会に参加"
+                width="240"
+                height="160"
+              />
+              <span>弦楽指導者協会全国大会に参加</span>
+            </button>
+          </div>
         </div>
       </section>
 

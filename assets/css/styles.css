@@ -505,6 +505,71 @@ figcaption {
   font-weight: 700;
 }
 
+.gallery-viewer {
+  display: grid;
+  gap: 18px;
+}
+
+.gallery-main {
+  margin: 0;
+}
+
+.gallery-main img {
+  width: 100%;
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--cream);
+  box-shadow: var(--shadow);
+}
+
+.gallery-main figcaption {
+  color: var(--brown);
+  font-size: 17px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.gallery-thumbnails {
+  display: grid;
+  grid-template-columns: repeat(7, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.gallery-thumbnail {
+  display: grid;
+  gap: 8px;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: var(--brown);
+  font: inherit;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1.45;
+  text-align: center;
+  cursor: pointer;
+}
+
+.gallery-thumbnail img {
+  width: 100%;
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--cream);
+  transition:
+    transform 160ms ease,
+    box-shadow 160ms ease;
+}
+
+.gallery-thumbnail:hover img,
+.gallery-thumbnail:focus-visible img {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 22px rgba(70, 52, 35, 0.14);
+}
+
 .video-section {
   display: grid;
   grid-template-columns: 0.85fr 1.15fr;
@@ -754,6 +819,10 @@ figcaption {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
+  .gallery-thumbnails {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
   .cta-card {
     align-items: flex-start;
     flex-direction: column;
@@ -804,6 +873,10 @@ figcaption {
   .trial-steps,
   .contact-list {
     grid-template-columns: 1fr;
+  }
+
+  .gallery-thumbnails {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .price-box div {
