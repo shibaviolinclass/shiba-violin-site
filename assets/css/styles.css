@@ -179,14 +179,19 @@ h3 {
 }
 
 h1 {
-  font-size: clamp(40px, 7vw, 72px);
+  font-size: clamp(32px, 5.6vw, 64px);
   font-weight: 800;
+}
+
+.hero-title-line {
+  display: block;
+  white-space: nowrap;
 }
 
 .hero-title-detail {
   display: block;
   margin-top: 8px;
-  font-size: clamp(28px, 4vw, 42px);
+  font-size: clamp(20px, 3.4vw, 38px);
 }
 
 h2 {
