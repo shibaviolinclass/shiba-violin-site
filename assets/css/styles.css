@@ -453,19 +453,11 @@ figcaption {
 }
 
 .location-grid {
-  grid-template-columns: 1.3fr 1fr 1fr;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
 .location-card {
   padding: 28px;
-}
-
-.main-location {
-  background: #fbf6ec;
-}
-
-.subtle {
-  background: #fafafa;
 }
 
 .tag {
