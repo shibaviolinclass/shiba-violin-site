@@ -25,7 +25,13 @@ html {
 
 body {
   margin: 0;
-  background: var(--bg);
+  background-color: var(--bg);
+  background-image:
+    linear-gradient(rgba(255, 253, 248, 0.82), rgba(255, 253, 248, 0.82)),
+    url("../images/HP%20Back.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
   color: var(--ink);
   font-family: "Hiragino Sans", "Yu Gothic", "Meiryo", system-ui, sans-serif;
   font-size: 17px;
@@ -503,7 +509,7 @@ figcaption {
 }
 
 .gallery-main {
-  width: min(100%, 560px);
+  width: 100%;
   margin: 0 auto;
 }
 
