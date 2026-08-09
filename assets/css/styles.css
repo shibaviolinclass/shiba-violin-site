@@ -71,7 +71,12 @@ a {
   gap: 24px;
   min-height: 88px;
   padding: 16px max(20px, calc((100vw - var(--content)) / 2));
-  background: rgba(255, 253, 248, 0.94);
+  background-color: rgba(255, 253, 248, 0.94);
+  background-image:
+    linear-gradient(rgba(255, 253, 248, 0.72), rgba(255, 253, 248, 0.72)),
+    url("../images/HP%20Head.jpg");
+  background-position: center;
+  background-size: cover;
   border-bottom: 1px solid var(--line);
   backdrop-filter: blur(12px);
 }
@@ -401,7 +406,7 @@ figcaption {
 
 .lesson-section {
   max-width: none;
-  background: linear-gradient(180deg, var(--cream), #fffaf1);
+  background: transparent;
 }
 
 .lesson-section > * {
@@ -509,7 +514,7 @@ figcaption {
 }
 
 .gallery-main {
-  width: 100%;
+  width: min(100%, 560px);
   margin: 0 auto;
 }
 
