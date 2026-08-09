@@ -503,7 +503,7 @@ figcaption {
 }
 
 .gallery-main {
-  width: min(100%, 280px);
+  width: min(100%, 560px);
   margin: 0 auto;
 }
 
