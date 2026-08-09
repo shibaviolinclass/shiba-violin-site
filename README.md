@@ -86,7 +86,8 @@ GitHub Pagesで公開できる、シンプルな静的サイトです。HTML/CSS
   title="YouTube video player"
   frameborder="0"
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-  allowfullscreen>
+  allowfullscreen
+>
 </iframe>
 ```
 
