@@ -76,7 +76,8 @@ a {
     linear-gradient(rgba(255, 253, 248, 0.72), rgba(255, 253, 248, 0.72)),
     url("../images/HP%20Head.jpg");
   background-position: center;
-  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: contain;
   border-bottom: 1px solid var(--line);
   backdrop-filter: blur(12px);
 }
