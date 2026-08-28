@@ -471,6 +471,10 @@ figcaption {
   padding: 28px;
 }
 
+.location-title-nowrap {
+  white-space: nowrap;
+}
+
 .tag {
   display: inline-flex;
   margin: 0 0 12px;
