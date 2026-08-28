@@ -675,30 +675,8 @@ figcaption {
   font-weight: 800;
 }
 
-.trial-steps p,
-.cta-card p {
+.trial-steps p {
   color: var(--muted);
-}
-
-.cta-section {
-  padding-top: 38px;
-  padding-bottom: 38px;
-}
-
-.cta-card {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 28px;
-  padding: clamp(28px, 5vw, 46px);
-  border-radius: var(--radius);
-  background: linear-gradient(135deg, #f4eadb, #fffdf8 70%);
-  border: 1px solid var(--line);
-  box-shadow: var(--shadow);
-}
-
-.cta-card > div {
-  max-width: 700px;
 }
 
 .contact-section {
@@ -813,11 +791,6 @@ figcaption {
 
   .gallery-thumbnails {
     grid-template-columns: repeat(4, minmax(0, 1fr));
-  }
-
-  .cta-card {
-    align-items: flex-start;
-    flex-direction: column;
   }
 }
 
