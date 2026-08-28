@@ -683,6 +683,12 @@ figcaption {
   color: var(--muted);
 }
 
+/* Hide the retired standalone START block if it remains in a conflicted deployment. */
+.cta-section,
+#cta {
+  display: none !important;
+}
+
 .contact-section {
   padding-top: 40px;
 }
