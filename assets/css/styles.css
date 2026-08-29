@@ -269,7 +269,7 @@ h3 {
 }
 
 .hero-media {
-  margin: 0;
+  margin: 96px 0 0;
 }
 
 .hero-media img {
@@ -792,6 +792,10 @@ figcaption {
 
   .hero {
     min-height: auto;
+  }
+
+  .hero-media {
+    margin-top: 0;
   }
 
   .feature-grid,
