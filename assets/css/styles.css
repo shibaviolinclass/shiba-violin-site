@@ -188,10 +188,13 @@ h1 {
   white-space: nowrap;
 }
 
-.hero-title-detail {
-  display: block;
+.hero-title-location {
   margin-top: 8px;
-  font-size: clamp(20px, 3.4vw, 38px);
+  font-size: clamp(14px, 3.1vw, 36px);
+}
+
+.hero-title-recruitment {
+  margin-top: 8px;
 }
 
 h2 {
