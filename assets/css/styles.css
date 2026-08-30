@@ -199,7 +199,7 @@ h1 {
 
 .hero-updated {
   margin: 10px 0 0;
-  color: #b33f32;
+  color: #d00000;
   font-size: 17px;
   font-weight: 700;
 }
@@ -220,7 +220,7 @@ h3 {
   line-height: 1.55;
 }
 
-.hero-copy p:not(.eyebrow):not(.lead) {
+.hero-copy p:not(.eyebrow):not(.lead):not(.hero-updated) {
   max-width: 680px;
   color: var(--muted);
 }
