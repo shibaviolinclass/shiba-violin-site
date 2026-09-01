@@ -550,13 +550,16 @@ figcaption {
 }
 
 .gallery-thumbnails {
-  display: grid;
-  grid-template-columns: repeat(7, minmax(0, 1fr));
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 16px;
 }
 
 .gallery-thumbnail {
   display: grid;
+  flex: 1 1 120px;
+  max-width: 140px;
   gap: 8px;
   padding: 0;
   border: 0;
@@ -737,6 +740,19 @@ figcaption {
 .mail-note {
   margin-bottom: 0;
   font-size: 14px;
+}
+
+.phone-contact {
+  margin-top: 24px;
+}
+
+.phone-contact p {
+  margin-bottom: 12px;
+}
+
+.phone-button {
+  gap: 10px;
+  margin: 0 auto;
 }
 
 .site-footer {
