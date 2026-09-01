@@ -737,9 +737,27 @@ figcaption {
   content: "✓";
 }
 
-.mail-note {
-  margin-bottom: 0;
-  font-size: 14px;
+.phone-contact {
+  margin-top: 24px;
+}
+
+.phone-button {
+  gap: 10px;
+  margin: 0 auto;
+}
+
+.phone-mark {
+  font-size: 22px;
+}
+
+.phone-button-text {
+  display: grid;
+  gap: 2px;
+  line-height: 1.35;
+}
+
+.phone-button-number {
+  font-size: 16px;
 }
 
 .phone-contact {
