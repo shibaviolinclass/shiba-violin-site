@@ -31,7 +31,7 @@ GitHub Pagesで公開できる、シンプルな静的サイトです。HTML/CSS
 
 ### メールアドレスの変更
 
-`index.html` 内の `example@example.com` を実際のメールアドレスに置き換えてください。
+問い合わせ先は `strad8114@gmail.com` に設定されています。変更する場合は、`index.html` 内のメールアドレスを新しいものに置き換えてください。
 
 検索すると、問い合わせボタン、問い合わせ本文、表示用メールアドレスの場所が見つかります。
 
@@ -74,7 +74,7 @@ GitHub Pagesで公開できる、シンプルな静的サイトです。HTML/CSS
 
 ## 動画の埋め込み
 
-`index.html` の `id="video"` セクションにある `video-placeholder` の部分を、YouTubeの埋め込みコードに置き換えてください。
+`index.html` の `id="video"` セクションにYouTube動画を埋め込んでいます。動画を変更する場合は、`iframe` の `src` にある `X4GUnkY05Rc` を新しい動画IDに置き換えてください。
 
 例:
 
@@ -86,11 +86,22 @@ GitHub Pagesで公開できる、シンプルな静的サイトです。HTML/CSS
   title="YouTube video player"
   frameborder="0"
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-  allowfullscreen>
+  allowfullscreen
+>
 </iframe>
 ```
 
 ## 更新後の確認方法
+
+### Google検索への登録確認
+
+Google Search Consoleの「URL検査」で公開URLを確認し、必要に応じて「インデックス登録をリクエスト」を実行してください。また、「サイトマップ」から次のURLを送信できます。
+
+```text
+https://shibaviolinclass.github.io/shiba-violin-site/sitemap.xml
+```
+
+旧ホームページと新ホームページの内容が重複している場合、Googleが旧ホームページを代表URLとして選ぶことがあります。新ホームページへ完全に移行する際は、可能であれば旧ホームページから新URLへの301リダイレクトを設定してください。
 
 ### 自分のパソコンで確認する場合
 
